@@ -13,7 +13,7 @@ class Ship:
         self.rect = self.image.get_rect()
 
         # Initialize starting position
-        self.rect.midbottom = self.screen_rect.midbottom
+        self.rect.midbottom = self.screen_rect.midbottom # rect.attributes is the attributes determine the starting position
 
         self.x = float(self.rect.x)
 
